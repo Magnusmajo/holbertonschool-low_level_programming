@@ -4,7 +4,14 @@
 
 /**  main - Complete the source code in order to print whether?\n 
  *   the number stored in the variable n is positive or negative.
- *   Return: Always 0; */
+ *   Return: Always 0; 
+ *   The output of the program should be:
+ *   The number, followed by
+ *   if the number is greater than 0: is positive
+ *   if the number is 0: is zero
+ *   if the number is less than 0: is negative
+ *   followed by a new line.
+*/
 
 int main (void)
 {
