@@ -1,3 +1,7 @@
+/*
+ * File: 9-strcpy.c
+ *
+ * Author: Alexis R. Rodriguez
 #include "main.h"
 /**
   * *_strcpy - copies the string pointed
