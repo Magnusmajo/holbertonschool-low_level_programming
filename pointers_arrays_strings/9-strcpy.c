@@ -1,7 +1,3 @@
-/*
- * File: 9-strcpy.c
- * Author: Alexis R. Rodriguez
- */
 #include "main.h"
 /**
  * _strcpy - Copies a string pointed to by @src, including the
