@@ -1,7 +1,3 @@
-/*
- * File 1-strncat.c
- * Author: Alexis Rodriguez
- */
 #include "main.h"
 
 /**
