@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* main - imprime _putchar, seguido de un salto de línea
-* Return: 0 en caso de éxito
+* main - prints _putchar, followed by a new line.
+* Return: 0
 */
 int main(void)
 {
