@@ -5,41 +5,33 @@
  *
  * Return: void
  */
-
 void times_table(void)
 {
-	int i, j, y, d, e;
+	int a, b, c;
 
-	for (i = 0; i < 10; i++)
+	for (c = 0; c < 10; c++)
 	{
-		for (j = 0; j < 10; j++)
+		_putchar(48);
+		_putchar(',');
+		for (a = 1; a <= 9; a++)
 		{
-			y = i * j;
-			d = y / 10;
-			e = y % 10;
-			if (j == 0)
-			{
-				_putchar('0');
-			}
-			else if (y < 10)
+			b = a * c;
+			if (b <= 9)
 			{
 				_putchar(' ');
-				_putchar('0' + e);
+				_putchar(' ');
+				_putchar(b + 48);
 			}
 			else
 			{
-				_putchar('0' + d);
-				_putchar('0' + e);
+				_putchar(' ');
+				_putchar(b / 10 + 48);
+				_putchar(b % 10 + 48);
 			}
-			if (j < 9)
-			{
+			if (a < 9)
 				_putchar(',');
-				_putchar(' ');
-			}
-			else
-			{
-				_putchar('\n');
-			}
+
 		}
+		_putchar('\n');
 	}
 }
